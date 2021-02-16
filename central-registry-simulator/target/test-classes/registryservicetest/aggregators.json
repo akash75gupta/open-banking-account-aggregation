@@ -1,0 +1,29 @@
+[
+  {
+    "id": "abcfinsoft",
+    "name": "abc Finsoft Pvt Ltd",
+    "phones": [
+      "8051654321",
+      "8967058724"
+    ],
+    "emails": [
+      "akash75gupta@gmail.com",
+      "rjaiswal@abcfinsoft.com"
+    ],
+    "apis": [
+      {
+        "url": "locahhost:7081",
+        "ver": "1.0"
+      }
+    ],
+    "docs": [
+      "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+    ],
+    "keys": [
+      {
+        "expiry": "",
+        "value": "base-64 encoded X509 V3 certificate"
+      }
+    ]
+  }
+]

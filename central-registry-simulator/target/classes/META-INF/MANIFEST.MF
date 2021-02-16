@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: baban
+Build-Jdk: 15
+Implementation-Title: central-registry-simulator
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: io.akash.openbanking
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/central-registry-simulator
+Created-By: Maven Integration for Eclipse
+
