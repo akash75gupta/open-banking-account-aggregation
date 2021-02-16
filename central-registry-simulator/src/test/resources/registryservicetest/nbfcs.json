@@ -1,0 +1,56 @@
+[
+  {
+    "id": "toyotafin",
+    "name": "Toyota Financial",
+    "phones": [
+      "9051398028",
+      "9163365012"
+    ],
+    "emails": [
+      "sdeshmukh@toyotafin.com",
+      "rpamidi@rtoyotafin.com"
+    ],
+    "apis": [
+      {
+        "url": "locahhost:9081",
+        "ver": "1.0"
+      }
+    ],
+    "docs": [
+      "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+    ],
+    "keys": [
+      {
+        "expiry": "",
+        "value": "base-64 encoded X509 V3 certificate"
+      }
+    ]
+  },
+  {
+    "id": "bajajfinserv",
+    "name": "Bajaj Finserv",
+    "phones": [
+      "9051398028",
+      "9163365012"
+    ],
+    "emails": [
+      "sdeshmukh@bajajfinserv.com",
+      "rpamidi@bajajfinserv.com"
+    ],
+    "apis": [
+      {
+        "url": "locahhost:9082",
+        "ver": "1.0"
+      }
+    ],
+    "docs": [
+      "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+    ],
+    "keys": [
+      {
+        "expiry": "",
+        "value": "base-64 encoded X509 V3 certificate"
+      }
+    ]
+  }
+]

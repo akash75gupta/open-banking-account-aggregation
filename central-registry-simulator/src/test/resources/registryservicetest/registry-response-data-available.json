@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "type":"FIP",
+      "id": "rbs",
+      "name": "Royal Bank of Scotland",
+      "phones": [
+        "8761423867",
+        "9830760369"
+      ],
+      "emails": [
+        "praj@rbs.com",
+        "rpamidi@rbs.com"
+      ],
+      "apis": [
+        {
+          "url": "locahhost:8081",
+          "ver": "1.0"
+        }
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    },
+    {
+      "type":"FIP",
+      "id": "hsbc",
+      "name": "Hongkong and Shanghai Banking Corporation",
+      "phones": [
+        "8760026859",
+        "9163376031"
+      ],
+      "emails": [
+        "praj@hsbc.com",
+        "rpamidi@hsbc.com"
+      ],
+      "apis": [
+        {
+          "url": "locahhost:8082",
+          "ver": "1.0"
+        }
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    },
+    {
+      "type":"AA",
+      "id": "abcfinsoft",
+      "name": "abc Finsoft Pvt Ltd",
+      "phones": [
+        "8051654321",
+        "8967058724"
+      ],
+      "emails": [
+        "akash75gupta@gmail.com",
+        "rjaiswal@abcfinsoft.com"
+      ],
+      "apis": [
+        {
+          "url": "locahhost:7081",
+          "ver": "1.0"
+        }
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    },
+    {
+      "type":"FIU",
+      "id": "toyotafin",
+      "name": "Toyota Financial",
+      "phones": [
+        "9051398028",
+        "9163365012"
+      ],
+      "emails": [
+        "sdeshmukh@toyotafin.com",
+        "rpamidi@rtoyotafin.com"
+      ],
+      "apis": [
+        {
+          "url": "locahhost:9081",
+          "ver": "1.0"
+        }
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    },
+    {
+      "type":"FIU",
+      "id": "bajajfinserv",
+      "name": "Bajaj Finserv",
+      "phones": [
+        "9051398028",
+        "9163365012"
+      ],
+      "emails": [
+        "sdeshmukh@bajajfinserv.com",
+        "rpamidi@bajajfinserv.com"
+      ],
+      "apis": [
+        {
+          "url": "locahhost:9082",
+          "ver": "1.0"
+        }
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    }
+  ]
+}

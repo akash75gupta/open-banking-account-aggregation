@@ -1,0 +1,113 @@
+{
+  "fips": [
+    {
+      "id": "rbs",
+      "name": "Royal Bank of Scotland",
+      "phones": [
+        "8761423867",
+        "9830760369"
+      ],
+      "emails": [
+        "praj@rbs.com",
+        "rpamidi@rbs.com"
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    },
+    {
+      "id": "hsbc",
+      "name": "Hongkong and Shanghai Banking Corporation",
+      "phones": [
+        "8760026859",
+        "9163376031"
+      ],
+      "emails": [
+        "praj@hsbc.com",
+        "rpamidi@hsbc.com"
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    }
+  ],
+  "accountAggregators": [
+    {
+      "id": "abcfinsoft",
+      "name": "abc Finsoft Pvt Ltd",
+      "phones": [
+        "8051654321",
+        "8967058724"
+      ],
+      "emails": [
+        "akash75gupta@gmail.com",
+        "rjaiswal@abcfinsoft.com"
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    }
+  ],
+  "fius": [
+    {
+      "id": "toyotafin",
+      "name": "Toyota Financial",
+      "phones": [
+        "9051398028",
+        "9163365012"
+      ],
+      "emails": [
+        "sdeshmukh@toyotafin.com",
+        "rpamidi@rtoyotafin.com"
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    },
+    {
+      "id": "bajajfinserv",
+      "name": "Bajaj Finserv",
+      "phones": [
+        "9051398028",
+        "9163365012"
+      ],
+      "emails": [
+        "sdeshmukh@bajajfinserv.com",
+        "rpamidi@bajajfinserv.com"
+      ],
+      "docs": [
+        "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+      ],
+      "keys": [
+        {
+          "expiry": "",
+          "value": "base-64 encoded X509 V3 certificate"
+        }
+      ]
+    }
+  ]
+}
