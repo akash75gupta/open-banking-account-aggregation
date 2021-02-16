@@ -1,0 +1,30 @@
+{
+  "customerId": "rithvik.pamidi@abcfinsoft",
+  "identifiers": [
+    {
+      "type": "EMAIL",
+      "value": "rithvik.pamidi@gmail.com",
+      "isVerified": true
+    },
+    {
+      "type": "AADHAR",
+      "value": "123456789012",
+      "isVerified": true
+    },
+    {
+      "type": "MOBILE",
+      "value": "9590315956",
+      "isVerified": true
+    },
+    {
+      "type": "CRN",
+      "value": "050419",
+      "isVerified": true
+    },
+    {
+      "type": "PAN",
+      "value": "PANPP8186F",
+      "isVerified": true
+    }
+  ]
+}

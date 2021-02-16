@@ -1,0 +1,22 @@
+[
+  {
+    "type": "MOBILE",
+    "category": "STRONG"
+  },
+  {
+    "type": "PAN",
+    "category": "STRONG"
+  },
+  {
+    "type": "AADHAR",
+    "category": "STRONG"
+  },
+  {
+    "type": "CRN",
+    "category": "WEAK"
+  },
+  {
+    "type": "EMAIL",
+    "category": "STRONG"
+  }
+]

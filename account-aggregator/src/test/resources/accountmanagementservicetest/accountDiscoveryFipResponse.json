@@ -1,0 +1,17 @@
+{
+    "ver": "1.0",
+    "timestamp": "Mon May 06 17:10:45 IST 2019",
+    "txnid": "4a4adbbe-29ae-11e8-a8d7-0289437bf331",
+    "authenticatorType": "DIRECT",
+    "discoveredAccounts": [
+        {
+            "fiType": {
+                "name": "DEPOSIT",
+                "value": "Savings Deposit"
+            },
+            "accRefNumber": "222755672",
+            "accType": "SAVINGS",
+            "maskedAccNumber": "XXXXXXX8111"
+        }
+    ]
+}

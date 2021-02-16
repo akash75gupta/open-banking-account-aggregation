@@ -1,0 +1,82 @@
+{
+  "name": "IDFC Capital First Bank",
+  "id": "rbs",
+  "fiTypes": [
+    {
+      "name": "DEPOSIT",
+      "value": "DEPOSIT"
+    },
+    {
+      "name": "TERM_DEPOSIT",
+      "value": "TERM_DEPOSIT"
+    },
+    {
+      "name": "RECURRING_DEPOSIT",
+      "value": "RECURRING_DEPOSIT"
+    },
+    {
+      "name": "SIP",
+      "value": "SIP"
+    },
+    {
+      "name": "CP",
+      "value": "CP"
+    },
+    {
+      "name": "GOVT_SECURITIES",
+      "value": "GOVT_SECURITIES"
+    },
+    {
+      "name": "EQUITIES",
+      "value": "EQUITIES"
+    },
+    {
+      "name": "BONDS",
+      "value": "BONDS"
+    },
+    {
+      "name": "DEBENTURES",
+      "value": "DEBENTURES"
+    },
+    {
+      "name": "MUTUAL_FUNDS",
+      "value": "MUTUAL_FUNDS"
+    },
+    {
+      "name": "ETF",
+      "value": "ETF"
+    },
+    {
+      "name": "IDR",
+      "value": "IDR"
+    },
+    {
+      "name": "CIS",
+      "value": "CIS"
+    },
+    {
+      "name": "AIF",
+      "value": "AIF"
+    },
+    {
+      "name": "INSURANCE_POLICIES",
+      "value": "INSURANCE_POLICIES"
+    },
+    {
+      "name": "NPS",
+      "value": "NPS"
+    },
+    {
+      "name": "INVIT",
+      "value": "INVIT"
+    },
+    {
+      "name": "REIT",
+      "value": "REIT"
+    },
+    {
+      "name": "OTHER",
+      "value": "OTHER"
+    }
+  ]
+}

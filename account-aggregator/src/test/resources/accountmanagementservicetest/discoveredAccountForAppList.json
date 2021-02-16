@@ -1,0 +1,12 @@
+[
+  {
+    "accountType": "SAVINGS",
+    "accountNumber": "XXXXXX4569",
+    "isLinked": false
+  },
+  {
+    "accountType": "CURRENT",
+    "accountNumber": "XXXXXXX4111",
+    "isLinked": false
+  }
+]

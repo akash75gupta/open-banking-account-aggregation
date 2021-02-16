@@ -1,0 +1,30 @@
+{
+  "type":"FIP",
+  "businessId": "rbs",
+  "name": "IDFC Capital First Bank",
+  "phones": [
+    "8761423867",
+    "9830760369"
+  ],
+  "emails": [
+    "praj@rbs.com",
+    "rpamidi@rbs.com"
+  ],
+  "identifiers":["PAN", "DOB", "ACCNO", "CRN"],
+  "apis": [
+    {
+      "url": "demo2727094.mockable.io",
+      "ver": "1.0"
+    }
+  ],
+  "logoUrl":"logo/rbs",
+  "docs": [
+    "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+  ],
+  "keys": [
+    {
+      "expiry": "",
+      "value": "base-64 encoded X509 V3 certificate"
+    }
+  ]
+}

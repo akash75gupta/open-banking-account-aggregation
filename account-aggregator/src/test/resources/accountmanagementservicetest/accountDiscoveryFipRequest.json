@@ -1,0 +1,137 @@
+{
+	"ver":"1.0",
+	"timestamp": "2019-04-12T12:20:51.624Z",
+    "txnid": "4a4adbbe-29ae-11e8-a8d7-0289437bf331",
+    "customer": {
+        "id": "rithvik.pamidi@abcfinsoft"
+    },
+    "identifiers": [
+        {
+            "category": "STRONG",
+            "type": "MOBILE",
+            "value": "9590315956"
+        }
+    ],
+    "fipDetails": {
+        "name": "IDFC Capital First Bank",
+  		"id": "rbs",
+        "fiTypes": [
+            {
+                "name": "DEPOSIT",
+                "value": "DEPOSIT"
+            },
+            {
+                "name": "TERM_DEPOSIT",
+                "value": "TERM_DEPOSIT"
+            },
+            {
+                "name": "RECURRING_DEPOSIT",
+                "value": "RECURRING_DEPOSIT"
+            },
+            {
+                "name": "SIP",
+                "value": "SIP"
+            },
+            {
+                "name": "CP",
+                "value": "CP"
+            },
+            {
+                "name": "GOVT_SECURITIES",
+                "value": "GOVT_SECURITIES"
+            },
+            {
+                "name": "EQUITIES",
+                "value": "EQUITIES"
+            },
+            {
+                "name": "BONDS",
+                "value": "BONDS"
+            },
+            {
+                "name": "DEBENTURES",
+                "value": "DEBENTURES"
+            },
+            {
+                "name": "MUTUAL_FUNDS",
+                "value": "MUTUAL_FUNDS"
+            },
+            {
+                "name": "ETF",
+                "value": "ETF"
+            },
+            {
+                "name": "IDR",
+                "value": "IDR"
+            },
+            {
+                "name": "CIS",
+                "value": "CIS"
+            },
+            {
+                "name": "AIF",
+                "value": "AIF"
+            },
+            {
+                "name": "INSURANCE_POLICIES",
+                "value": "INSURANCE_POLICIES"
+            },
+            {
+                "name": "NPS",
+                "value": "NPS"
+            },
+            {
+                "name": "INVIT",
+                "value": "INVIT"
+            },
+            {
+                "name": "REIT",
+                "value": "REIT"
+            },
+            {
+                "name": "OTHER",
+                "value": "OTHER"
+            }
+        ]
+    },
+    "meta": {
+        "type": "PERSON",
+        "value": "PERSON",
+        "deviceInfo": {
+            "tags": [
+                {
+                    "name": "MOBILE",
+                    "value": "realme2-pro"
+                },
+                {
+                    "name": "GEOCODE",
+                    "value": "41°24'12.2'N 2°10'26.5'E"
+                },
+                {
+                    "name": "LOCATION",
+                    "value": "India"
+                },
+                {
+                    "name": "IP",
+                    "value": "192.164.28.1"
+                },
+                {
+                    "name": "TYPE",
+                    "value": "string"
+                },
+                {
+                    "name": "ID",
+                    "value": "string"
+                },
+                {
+                    "name": "OS",
+                    "value": "android-oreo"
+                },
+                {
+                    "name": "APP",
+                    "value": "abcfinsoft-congero"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,48 @@
+<configuration name="Account_Aggregator_logs" debug="true">
+    <springProfile name="prod">
+        <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+                <pattern>%d{yyyy-MM-dd HH:mm:ss}--%highlight(%-5level)--user.id=%X{user}--transcation.id=%X{transcationId}--%msg%n</pattern>
+                <!--<pattern>%-4r [%t] %5p %c{1} - %m - tx.id=%X{user} tx.owner=%X{transcationId}%n</pattern>-->
+            </encoder>
+        </appender>
+
+        <appender name="FILE_AUDIT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+            <file>./master_log.log</file>
+            <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+                <pattern>%d{yyyy-MM-dd HH:mm:ss} -- user.id=%X{user} transcation.id=%X{transcationId}  - %msg%n</pattern>
+            </encoder>
+            <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                <!--Rolling daily-->
+                <fileNamePattern>./archived/master_log-%d{yyyy-MM-dd}.zip</fileNamePattern>
+                <maxHistory>30</maxHistory>
+                <totalSizeCap>3GB</totalSizeCap>
+            </rollingPolicy>
+        </appender>
+       <root level="INFO">
+            <appender-ref ref="FILE_AUDIT"/>
+            <appender-ref ref="stdout" />
+        </root>
+    </springProfile>
+
+    <springProfile name="dev">
+        <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+                <pattern>%d{yyyy-MM-dd HH:mm:ss}--%highlight(%-5level)--user.id=%X{user}--transcation.id=%X{transcationId}-- %msg%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="INFO">
+            <appender-ref ref="stdout" />
+        </root>
+        <logger level="TRACE" name="org.springframework.web" additivity="false">
+            <appender-ref ref="stdout" />
+        </logger>
+        <logger level="TRACE" name="io.akash.openbanking.accountmanagement" additivity="false">
+            <appender-ref ref="stdout" />
+        </logger>
+        <logger level="DEBUG" name="org.springframework.data.mongodb.core.MongoTemplate" additivity="false">
+            <appender-ref ref="stdout" />
+        </logger>
+    </springProfile>
+</configuration>

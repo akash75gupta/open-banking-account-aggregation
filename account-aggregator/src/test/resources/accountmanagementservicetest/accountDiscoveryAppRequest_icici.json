@@ -1,0 +1,53 @@
+{
+    "transactionId":"4a4adbbe-29ae-11e8-a8d7-0289437bf332",
+    "timestamp": "2019-05-01T09:29:25.033+0000",
+    "ver":"1.0",
+    "customerId": "rithvik.pamidi@abcfinsoft",
+    "fipId":"hsbc-test",
+    "identifiers":[
+		{
+			"type":"MOBILE",
+			"value":"9590315956"
+		}
+	],
+    "meta": {
+        "type": "PERSON",
+        "value": "PERSON",
+        "deviceInfo": {
+            "tags": [
+                {
+                    "name": "MOBILE",
+                    "value": "realme2-pro"
+                },
+                {
+                    "name": "GEOCODE",
+                    "value": "41°24'12.2'N 2°10'26.5'E"
+                },
+                {
+                    "name": "LOCATION",
+                    "value": "India"
+                },
+                {
+                    "name": "IP",
+                    "value": "192.164.28.1"
+                },
+                {
+                    "name": "TYPE",
+                    "value": "string"
+                },
+                {
+                    "name": "ID",
+                    "value": "string"
+                },
+                {
+                    "name": "OS",
+                    "value": "android-oreo"
+                },
+                {
+                    "name": "APP",
+                    "value": "abcfinsoft-congero"
+                }
+            ]
+        }
+    }
+}

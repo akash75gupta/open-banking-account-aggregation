@@ -1,0 +1,34 @@
+[
+  {
+    "businessId": "test-bank",
+    "name": "HDFC Bank",
+    "logoUrl": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2016/01/25/418653-hdfc-bank.jpg",
+    "discoveredAccounts": [
+      {
+        "accountType": "SAVINGS",
+        "accountNumber": "XXXXXXX8111",
+        "referenceNumber": null,
+        "linked": false
+      }
+    ]
+  },
+  {
+    "businessId": "hsbc-test",
+    "name": "ICICI Bank",
+    "logoUrl": "https://www.icicibank.com/managed-assets/logos/personal.jpg",
+    "discoveredAccounts": [
+      {
+        "accountType": "NRO",
+        "accountNumber": "XXXXXX4569",
+        "referenceNumber": null,
+        "linked": false
+      },
+      {
+        "accountType": "CURRENT",
+        "accountNumber": "XXXXXXX4522",
+        "referenceNumber": null,
+        "linked": false
+      }
+    ]
+  }
+  ]

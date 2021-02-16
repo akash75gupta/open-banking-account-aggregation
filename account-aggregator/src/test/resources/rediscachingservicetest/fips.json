@@ -1,0 +1,21 @@
+[
+  {
+    "businessId": "hsbc-test",
+    "name": "ICICI Bank",
+    "logoUrl": "https://www.icicibank.com/managed-assets/logos/personal.jpg",
+    "discoveredAccounts": [
+      {
+        "accountType": "NRO",
+        "accountNumber": "XXXXXX4569",
+        "referenceNumber": null,
+        "isLinked": false
+      },
+      {
+        "accountType": "CURRENT",
+        "accountNumber": "XXXXXXX4522",
+        "referenceNumber": null,
+        "isLinked": false
+      }
+    ]
+  }
+]

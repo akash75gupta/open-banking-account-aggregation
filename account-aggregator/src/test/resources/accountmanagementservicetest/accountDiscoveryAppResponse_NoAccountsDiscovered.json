@@ -1,0 +1,14 @@
+{
+    "customerId": "rithvik.pamidi@abcfinsoft",
+    "ver": "1.0",
+    "timestamp": "2019-04-12T12:20:51.624Z",
+    "transactionId": "4a4adbbe-29ae-11e8-a8d7-0289437bf332",
+    "fips": [
+        {
+            "id": "rbs",
+            "name": "IDFC Capital First Bank",
+            "logoUrl": "https://www.idfcbank.com/content/dam/idfc/image/index/tile-images/IDFC_LOGO_SCALABLE.svg",
+            "discoveredAccounts": []
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+        "businessId" : "rbs",
+        "type" : "FIP",
+        "name" : "IDFC Capital First Bank",
+        "phones" : [
+                "8760026859",
+                "9163376031"
+        ],
+        "emails" : [
+                "praj@hsbc.com",
+                "rpamidi@hsbc.com"
+        ],
+        "identifiers" : [
+                "CRN"
+        ],
+        "apis" : [
+                {
+                        "url" : "localhost:8091",
+                        "ver" : "1.0"
+                }
+        ],
+        "logoUrl" : "https://www.idfcbank.com/content/dam/idfc/image/index/tile-images/IDFC_LOGO_SCALABLE.svg",
+        "docs" : [
+                "https://api.rebit.org.in/assets/specifications/account-aggregator/NBFC-AA-FIP.html"
+        ],
+        "keys" : [
+                {
+                        "expiry" : "",
+                        "value" : "base-64 encoded X509 V3 certificate"
+                }
+        ]
+}
